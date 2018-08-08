@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Mic-Live-and-Phone-Flasher-rescue)(type Legacy)(uri "${KIPRJMOD}/Mic Live and Phone Flasher-rescue.lib")(options "")(descr ""))
+  (lib (name My-Components)(type Legacy)(uri "O:/Electronics_stuff/KiCad Libraries/My Components.lib")(options "")(descr ""))
+)

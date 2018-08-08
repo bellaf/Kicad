@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 4_x_4_Transistor_Amplifier-eagle-import)(type Legacy)(uri ${KIPRJMOD}/4_x_4_Transistor_Amplifier-eagle-import.lib)(options "")(descr ""))
+)
