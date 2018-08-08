@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\BELLAF\Documents\Personal\Electronics Projects\Kicad\Sonoff_4Ch_Switch\Sonoff_4ch_switch.sch</h1>
+    <p>06/08/2018 12:21:00</p>
+    <p>Eeschema (5.0.0)</p>
+    <p><b>Component Count:</b>57</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1</td><td>1</td><td>10uF</td><td>Device:CP</td><td></td><td>Polarised capacitor</td><td></td></tr><tr><td>C2</td><td>1</td><td>22uF</td><td>Device:CP</td><td></td><td>Polarised capacitor</td><td></td></tr><tr><td>D1, D2, D3, D4</td><td>4</td><td>1N4148</td><td>Device:D</td><td>~</td><td>Diode</td><td></td></tr><tr><td>D5, D6, D7, D8, D9</td><td>5</td><td>LED</td><td>Device:LED</td><td>~</td><td>LED generic</td><td></td></tr><tr><td>F1</td><td>1</td><td>Fuse 5A</td><td>Device:Fuse</td><td>~</td><td>Fuse, generic</td><td></td></tr><tr><td>J1</td><td>1</td><td>Barrel_Jack_Switch</td><td>Connector:Barrel_Jack_Switch</td><td></td><td>DC Barrel Jack with an internal switch</td><td></td></tr><tr><td>J2</td><td>1</td><td>Live</td><td>Connector:Screw_Terminal_01x05</td><td>~</td><td>Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J3</td><td>1</td><td>Neutrals</td><td>Connector:Screw_Terminal_01x05</td><td>~</td><td>Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J4</td><td>1</td><td>Earths</td><td>Connector:Screw_Terminal_01x05</td><td>~</td><td>Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J5</td><td>1</td><td>Conn_01x03_Male</td><td>Connector:Conn_01x03_Male</td><td>~</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>K1, K2, K3, K4</td><td>4</td><td>G5LE-1</td><td>Relay:G5LE-1</td><td>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</td><td>Omron G5LE relay, Miniature Single Pole, SPDT, 10A</td><td></td></tr><tr><td>Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8</td><td>8</td><td>2N7002</td><td>Transistor_FET:2N7002</td><td>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</td><td>0.115A Id, 60V Vds, N-channel MOSFET, SOT-23</td><td></td></tr><tr><td>R1, R3, R5, R7, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21</td><td>17</td><td>1K</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R2, R4, R6, R8</td><td>4</td><td>10K</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R22</td><td>1</td><td>4.7K</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>S1, S2, S3, S4</td><td>4</td><td>PTS645SM43SMTR92_LFS</td><td>dk_Tactile-Switches:PTS645SM43SMTR92_LFS</td><td>https://www.ckswitches.com/media/1471/pts645.pdf</td><td>SWITCH TACTILE SPST-NO 0.05A 12V</td><td></td></tr><tr><td>U1</td><td>1</td><td>AP1117-15</td><td>Regulator_Linear:NCP1117-5.0_SOT223</td><td></td><td>1A Low drop-out regulator, Fixed Output 5V, SOT-223</td><td></td></tr><tr><td>U2</td><td>1</td><td>WeMos_mini</td><td>wemos_mini:WeMos_mini</td><td>http://www.wemos.cc/Products/d1_mini.html</td><td>WeMos D1 mini</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

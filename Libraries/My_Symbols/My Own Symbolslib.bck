@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Wemos_D1_Mini_wide
+D Wemos D1 Mini with GPIO ports
+K Wemos
+$ENDCMP
+#
+$CMP wemos_mini_wide
+D Wemos D1 Mini with GPIO ports
+K Wemos
+$ENDCMP
+#
+#End Doc Library

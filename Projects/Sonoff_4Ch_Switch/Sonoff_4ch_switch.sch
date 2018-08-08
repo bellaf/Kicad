@@ -1,0 +1,618 @@
+EESchema Schematic File Version 4
+LIBS:Sonoff_4ch_switch-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Sonoff 4 Ch Mains Switch"
+Date ""
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5B607EB4
+P 1200 1150
+F 0 "J1" H 1255 1467 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1255 1376 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 1250 1110 50  0001 C CNN
+F 3 "" H 1250 1110 50  0001 C CNN
+	1    1200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5B6080EB
+P 1850 1200
+F 0 "C1" H 1968 1246 50  0000 L CNN
+F 1 "10uF" H 1968 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 1888 1050 50  0001 C CNN
+F 3 "" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5B608133
+P 3050 1200
+F 0 "C2" H 3168 1246 50  0000 L CNN
+F 1 "22uF" H 3168 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 3088 1050 50  0001 C CNN
+F 3 "" H 3050 1200 50  0001 C CNN
+	1    3050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1350 1600 1350
+Wire Wire Line
+	1600 1350 1600 1250
+Wire Wire Line
+	1600 1250 1500 1250
+Connection ~ 1850 1350
+Wire Wire Line
+	1500 1150 1600 1150
+Wire Wire Line
+	1600 1150 1600 1250
+Connection ~ 1600 1250
+Wire Wire Line
+	1500 1050 1850 1050
+Connection ~ 1850 1050
+Wire Wire Line
+	2750 1050 2850 1050
+$Comp
+L power:GND #PWR0101
+U 1 1 5B6083FE
+P 3050 1450
+F 0 "#PWR0101" H 3050 1200 50  0001 C CNN
+F 1 "GND" H 3055 1277 50  0000 C CNN
+F 2 "" H 3050 1450 50  0001 C CNN
+F 3 "" H 3050 1450 50  0001 C CNN
+	1    3050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 950  3050 1050
+Connection ~ 3050 1050
+Wire Wire Line
+	3050 1350 3050 1450
+Connection ~ 3050 1350
+Text Notes 750  750  0    50   ~ 0
+PSU: 6V - 12V DC IN (5V Output)
+$Comp
+L power:+5V #PWR0105
+U 1 1 5B615400
+P 3050 950
+F 0 "#PWR0105" H 3050 800 50  0001 C CNN
+F 1 "+5V" H 3065 1123 50  0000 C CNN
+F 2 "" H 3050 950 50  0001 C CNN
+F 3 "" H 3050 950 50  0001 C CNN
+	1    3050 950 
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9350 750  1250 950 
+U 5B62A120
+F0 "Relays" 50
+F1 "Relays.sch" 50
+$EndSheet
+Text GLabel 1500 3200 0    50   Input ~ 0
+Relay3
+Text GLabel 1500 3300 0    50   Input ~ 0
+Relay2
+Text GLabel 3650 3100 2    50   Input ~ 0
+Relay1
+Wire Wire Line
+	1850 1050 2150 1050
+$Comp
+L power:+5V #PWR0102
+U 1 1 5B62E163
+P 1550 2700
+F 0 "#PWR0102" H 1550 2550 50  0001 C CNN
+F 1 "+5V" H 1565 2873 50  0000 C CNN
+F 2 "" H 1550 2700 50  0001 C CNN
+F 3 "" H 1550 2700 50  0001 C CNN
+	1    1550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2800 1550 2800
+Wire Wire Line
+	1550 2800 1550 2700
+Text GLabel 3650 2900 2    50   Input ~ 0
+Relay4
+$Sheet
+S 9400 2150 1200 1050
+U 5B6399CD
+F0 "Mains" 50
+F1 "Mains.sch" 50
+$EndSheet
+NoConn ~ 3300 3500
+NoConn ~ 3300 3400
+NoConn ~ 1700 3400
+NoConn ~ 1700 3500
+$Comp
+L power:GND #PWR0104
+U 1 1 5B635E51
+P 1550 2900
+F 0 "#PWR0104" H 1550 2650 50  0001 C CNN
+F 1 "GND" H 1555 2727 50  0000 C CNN
+F 2 "" H 1550 2900 50  0001 C CNN
+F 3 "" H 1550 2900 50  0001 C CNN
+	1    1550 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2900 1700 2900
+Wire Wire Line
+	3300 2900 3650 2900
+Wire Wire Line
+	1500 3200 1700 3200
+Wire Wire Line
+	1700 3300 1500 3300
+Wire Wire Line
+	3300 3100 3650 3100
+$Comp
+L Device:LED D9
+U 1 1 5B64DF92
+P 4050 1450
+F 0 "D9" V 4088 1333 50  0000 R CNN
+F 1 "LED" V 3997 1333 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4050 1450 50  0001 C CNN
+F 3 "~" H 4050 1450 50  0001 C CNN
+	1    4050 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5B64E229
+P 4050 1150
+F 0 "R17" H 4120 1196 50  0000 L CNN
+F 1 "1K" H 4120 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3980 1150 50  0001 C CNN
+F 3 "~" H 4050 1150 50  0001 C CNN
+	1    4050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 5B64E28F
+P 4050 1000
+F 0 "#PWR017" H 4050 850 50  0001 C CNN
+F 1 "+5V" H 4065 1173 50  0000 C CNN
+F 2 "" H 4050 1000 50  0001 C CNN
+F 3 "" H 4050 1000 50  0001 C CNN
+	1    4050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5B64E2A8
+P 4050 1600
+F 0 "#PWR018" H 4050 1350 50  0001 C CNN
+F 1 "GND" H 4055 1427 50  0000 C CNN
+F 2 "" H 4050 1600 50  0001 C CNN
+F 3 "" H 4050 1600 50  0001 C CNN
+	1    4050 1600
+	1    0    0    -1  
+$EndComp
+Text Label 3100 1050 0    50   ~ 0
+5V_Hot
+Text Label 1900 1050 0    50   ~ 0
+DC_IN
+$Comp
+L Device:R R18
+U 1 1 5B6590AC
+P 5000 1150
+F 0 "R18" H 5070 1196 50  0000 L CNN
+F 1 "1K" H 5070 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1150 50  0001 C CNN
+F 3 "~" H 5000 1150 50  0001 C CNN
+	1    5000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR019
+U 1 1 5B659209
+P 3400 2700
+F 0 "#PWR019" H 3400 2550 50  0001 C CNN
+F 1 "+3V3" H 3415 2873 50  0000 C CNN
+F 2 "" H 3400 2700 50  0001 C CNN
+F 3 "" H 3400 2700 50  0001 C CNN
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2700 3400 2750
+Wire Wire Line
+	3400 2800 3300 2800
+$Comp
+L power:+3V3 #PWR021
+U 1 1 5B6594B1
+P 5000 1000
+F 0 "#PWR021" H 5000 850 50  0001 C CNN
+F 1 "+3V3" H 5015 1173 50  0000 C CNN
+F 2 "" H 5000 1000 50  0001 C CNN
+F 3 "" H 5000 1000 50  0001 C CNN
+	1    5000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S1
+U 1 1 5B6598F6
+P 4800 1500
+F 0 "S1" H 4700 1700 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 4900 1300 60  0001 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 5000 1700 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5000 1800 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 5000 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 5000 2000 60  0001 L CNN "MPN"
+F 6 "Switches" H 5000 2100 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5000 2200 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5000 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 5000 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5000 2500 60  0001 L CNN "Description"
+F 11 "C&K" H 5000 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5000 2700 60  0001 L CNN "Status"
+	1    4800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5B659A92
+P 4600 1750
+F 0 "#PWR020" H 4600 1500 50  0001 C CNN
+F 1 "GND" H 4605 1577 50  0000 C CNN
+F 2 "" H 4600 1750 50  0001 C CNN
+F 3 "" H 4600 1750 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1400 4600 1600
+Wire Wire Line
+	4600 1600 4600 1750
+Connection ~ 4600 1600
+Wire Wire Line
+	5000 1400 5000 1300
+Wire Wire Line
+	5000 1600 5250 1600
+Text GLabel 5250 1600 2    50   Input ~ 0
+SW0
+Text GLabel 1500 3100 0    50   Input ~ 0
+SW0
+Wire Wire Line
+	1500 3100 1700 3100
+$Comp
+L Device:R R19
+U 1 1 5B65AEF6
+P 5700 1700
+F 0 "R19" H 5770 1746 50  0000 L CNN
+F 1 "1K" H 5770 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5630 1700 50  0001 C CNN
+F 3 "~" H 5700 1700 50  0001 C CNN
+	1    5700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 5B65AEFD
+P 5700 1550
+F 0 "#PWR023" H 5700 1400 50  0001 C CNN
+F 1 "+3V3" H 5715 1723 50  0000 C CNN
+F 2 "" H 5700 1550 50  0001 C CNN
+F 3 "" H 5700 1550 50  0001 C CNN
+	1    5700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S2
+U 1 1 5B65AF0C
+P 5500 2050
+F 0 "S2" H 5400 2250 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 5600 1850 60  0001 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 5700 2250 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5700 2350 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 5700 2450 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 5700 2550 60  0001 L CNN "MPN"
+F 6 "Switches" H 5700 2650 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5700 2750 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5700 2850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 5700 2950 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5700 3050 60  0001 L CNN "Description"
+F 11 "C&K" H 5700 3150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5700 3250 60  0001 L CNN "Status"
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5B65AF13
+P 5300 2300
+F 0 "#PWR022" H 5300 2050 50  0001 C CNN
+F 1 "GND" H 5305 2127 50  0000 C CNN
+F 2 "" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1950 5300 2150
+Wire Wire Line
+	5300 2150 5300 2300
+Connection ~ 5300 2150
+Wire Wire Line
+	5700 1950 5700 1850
+Wire Wire Line
+	5700 2150 5950 2150
+Text GLabel 5950 2150 2    50   Input ~ 0
+SW2
+$Comp
+L Device:R R20
+U 1 1 5B65B2AD
+P 6350 2200
+F 0 "R20" H 6420 2246 50  0000 L CNN
+F 1 "1K" H 6420 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 2200 50  0001 C CNN
+F 3 "~" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR025
+U 1 1 5B65B2B4
+P 6350 2050
+F 0 "#PWR025" H 6350 1900 50  0001 C CNN
+F 1 "+3V3" H 6365 2223 50  0000 C CNN
+F 2 "" H 6350 2050 50  0001 C CNN
+F 3 "" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S3
+U 1 1 5B65B2C3
+P 6150 2550
+F 0 "S3" H 6050 2750 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 6250 2350 60  0001 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 6350 2750 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6350 2850 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 6350 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 6350 3050 60  0001 L CNN "MPN"
+F 6 "Switches" H 6350 3150 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 6350 3250 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6350 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 6350 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6350 3550 60  0001 L CNN "Description"
+F 11 "C&K" H 6350 3650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 3750 60  0001 L CNN "Status"
+	1    6150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5B65B2CA
+P 5950 2800
+F 0 "#PWR024" H 5950 2550 50  0001 C CNN
+F 1 "GND" H 5955 2627 50  0000 C CNN
+F 2 "" H 5950 2800 50  0001 C CNN
+F 3 "" H 5950 2800 50  0001 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2450 5950 2650
+Wire Wire Line
+	5950 2650 5950 2800
+Connection ~ 5950 2650
+Wire Wire Line
+	6350 2450 6350 2350
+Wire Wire Line
+	6350 2650 6600 2650
+Text GLabel 6600 2650 2    50   Input ~ 0
+SW14
+$Comp
+L Device:R R21
+U 1 1 5B65B78F
+P 7000 2700
+F 0 "R21" H 7070 2746 50  0000 L CNN
+F 1 "1K" H 7070 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR027
+U 1 1 5B65B796
+P 7000 2550
+F 0 "#PWR027" H 7000 2400 50  0001 C CNN
+F 1 "+3V3" H 7015 2723 50  0000 C CNN
+F 2 "" H 7000 2550 50  0001 C CNN
+F 3 "" H 7000 2550 50  0001 C CNN
+	1    7000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S4
+U 1 1 5B65B7A5
+P 6800 3050
+F 0 "S4" H 6700 3250 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 6900 2850 60  0001 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 7000 3250 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 7000 3350 60  0001 L CNN
+F 4 "CKN9112CT-ND" H 7000 3450 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS645SM43SMTR92 LFS" H 7000 3550 60  0001 L CNN "MPN"
+F 6 "Switches" H 7000 3650 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 7000 3750 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1471/pts645.pdf" H 7000 3850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" H 7000 3950 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 7000 4050 60  0001 L CNN "Description"
+F 11 "C&K" H 7000 4150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7000 4250 60  0001 L CNN "Status"
+	1    6800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5B65B7AC
+P 6600 3300
+F 0 "#PWR026" H 6600 3050 50  0001 C CNN
+F 1 "GND" H 6605 3127 50  0000 C CNN
+F 2 "" H 6600 3300 50  0001 C CNN
+F 3 "" H 6600 3300 50  0001 C CNN
+	1    6600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2950 6600 3150
+Wire Wire Line
+	6600 3150 6600 3300
+Connection ~ 6600 3150
+Wire Wire Line
+	7000 2950 7000 2850
+Wire Wire Line
+	7000 3150 7250 3150
+Text GLabel 7250 3150 2    50   Input ~ 0
+SW16
+Text GLabel 1500 3000 0    50   Input ~ 0
+SW2
+Wire Wire Line
+	1500 3000 1700 3000
+Text GLabel 3650 3200 2    50   Input ~ 0
+SW14
+Text GLabel 3650 3300 2    50   Input ~ 0
+SW16
+Wire Wire Line
+	3300 3200 3650 3200
+Wire Wire Line
+	3650 3300 3300 3300
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5B67F43F
+P 2850 1050
+F 0 "TP1" H 2908 1170 50  0000 L CNN
+F 1 "5V" H 2908 1079 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3050 1050 50  0001 C CNN
+F 3 "~" H 3050 1050 50  0001 C CNN
+	1    2850 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 1050
+Wire Wire Line
+	2850 1050 3050 1050
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5B67F57D
+P 3400 2750
+F 0 "TP2" V 3354 2937 50  0000 L CNN
+F 1 "3.3V" V 3445 2937 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3600 2750 50  0001 C CNN
+F 3 "~" H 3600 2750 50  0001 C CNN
+	1    3400 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 3400 2750
+Wire Wire Line
+	3400 2750 3400 2800
+Text GLabel 3600 3000 2    50   Input ~ 0
+OneWire
+Wire Wire Line
+	3300 3000 3600 3000
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5B6806FE
+P 5100 4200
+F 0 "J5" H 5073 4130 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5073 4221 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5100 4200 50  0001 C CNN
+F 3 "~" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5B680954
+P 4750 3950
+F 0 "#PWR0106" H 4750 3800 50  0001 C CNN
+F 1 "+3V3" H 4765 4123 50  0000 C CNN
+F 2 "" H 4750 3950 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5B680983
+P 4750 4500
+F 0 "#PWR0107" H 4750 4250 50  0001 C CNN
+F 1 "GND" H 4755 4327 50  0000 C CNN
+F 2 "" H 4750 4500 50  0001 C CNN
+F 3 "" H 4750 4500 50  0001 C CNN
+	1    4750 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 4200 0    50   Input ~ 0
+OneWire
+Wire Wire Line
+	4750 3950 4750 4000
+Wire Wire Line
+	4750 4100 4900 4100
+Wire Wire Line
+	4900 4300 4750 4300
+Wire Wire Line
+	4750 4300 4750 4500
+$Comp
+L Device:R R22
+U 1 1 5B6832AC
+P 4600 4000
+F 0 "R22" V 4500 3900 50  0000 L CNN
+F 1 "4.7K" V 4700 3900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 4000 50  0001 C CNN
+F 3 "~" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 4750 4100
+Wire Wire Line
+	4450 4000 4450 4200
+Wire Wire Line
+	4100 4200 4450 4200
+Connection ~ 4450 4200
+Wire Wire Line
+	4450 4200 4900 4200
+Wire Wire Line
+	1850 1350 2450 1350
+$Comp
+L Regulator_Linear:AP1117-50 U1
+U 1 1 5B6ACCC5
+P 2450 1050
+F 0 "U1" H 2450 1292 50  0000 C CNN
+F 1 "AP1117-50" H 2450 1201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2450 1250 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2550 800 50  0001 C CNN
+F 4 "1A LDO 5.0V Fixed output" H 2450 1050 50  0001 C CNN "Description"
+	1    2450 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1350
+Wire Wire Line
+	2450 1350 3050 1350
+$Comp
+L My_Own_Symbolslib:Wemos_D1_Mini_wide U2
+U 1 1 5B6ACFC5
+P 2200 3150
+F 0 "U2" H 2500 3787 60  0000 C CNN
+F 1 "Wemos_D1_Mini_wide" H 2500 3681 60  0000 C CNN
+F 2 "" H 2750 2450 60  0000 C CNN
+F 3 "" H 2750 2450 60  0000 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
