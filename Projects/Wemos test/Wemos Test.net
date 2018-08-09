@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\BELLAF\\Documents\\Personal\\Electronics Projects\\Kicad\\Projects\\Wemos test\\Wemos Test.sch")
-    (date "08/08/2018 08:31:12")
+    (source "O:\\Electronics_stuff\\Kicad\\Projects\\Wemos test\\Wemos Test.sch")
+    (date "08/08/2018 15:36:37")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref U1)
       (value Wemos_D1_Mini_wide)
+      (footprint My_Component_Footprints:Wemos_D1_mini_board)
       (libsource (lib My_Own_Symbolslib) (part Wemos_D1_Mini_wide) (description "Wemos D1 Mini with GPIO ports"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B6981E3))
@@ -96,7 +97,7 @@
     (library (logical MCU_Module)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_Module.lib"))
     (library (logical My_Own_Symbolslib)
-      (uri "C:/Users/BELLAF/Documents/Personal/Electronics Projects/Kicad/Libraries/My_Symbols/My Own Symbolslib.lib")))
+      (uri "O:\\Electronics_stuff\\Kicad\\Libraries\\My_Symbols\\My Own Symbolslib.lib")))
   (nets
     (net (code 1) (name "Net-(A1-Pad27)")
       (node (ref A1) (pin 27)))

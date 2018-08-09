@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Wemos Test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5B6981E3
 P 5200 3400
 F 0 "U1" H 5000 3950 60  0000 C CNN
 F 1 "Wemos_D1_Mini_wide" H 5400 2850 60  0000 C CNN
-F 2 "" H 5750 2700 60  0000 C CNN
+F 2 "My_Component_Footprints:Wemos_D1_mini_board" H 5750 2700 60  0000 C CNN
 F 3 "" H 5750 2700 60  0000 C CNN
 	1    5200 3400
 	1    0    0    -1  
