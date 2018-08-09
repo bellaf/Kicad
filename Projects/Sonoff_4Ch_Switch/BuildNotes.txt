@@ -24,3 +24,13 @@ Thats it, set Alexa to discover it all and bingo!
  	
 Adding a DS1820B Onewire connection as well to make the unit versatile......
 using GPIO13 on D7 for this..
+
+Hmm, new "issue", if fully configure the above settings, the device will Reset all config to default
+and re-boot, many options tried, no effect.
+Read about Setoption13, set it "ON", and the device restarted, and has been stable ever since,
+BUT, after the reboot, an additional Status message: RSL: Setoption13: OFF
+appears, so not sure whats happened, the OFF state is the default state.....
+hey ho, whatever fixes the problem....
+O.K. so not as straitforward, seems it sets itself OFF again after 25 seconds, setting it again seems to make it permanent...
+
+
