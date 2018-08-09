@@ -1,0 +1,628 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4500 3700 4500 3100
+Wire Wire Line
+	3800 3400 3900 3400
+Wire Wire Line
+	3900 3400 3900 3700
+Wire Wire Line
+	3900 3700 3900 4100
+Wire Wire Line
+	3900 4100 3800 4100
+Wire Wire Line
+	3900 3700 4200 3700
+Wire Wire Line
+	4200 3700 4200 3100
+Wire Wire Line
+	4200 3100 4500 3100
+Wire Wire Line
+	4200 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 2000
+Wire Wire Line
+	4500 3100 5500 3100
+Wire Wire Line
+	5500 3100 6200 3100
+Wire Wire Line
+	6200 3100 6600 3100
+Wire Wire Line
+	6600 3100 6800 3100
+Wire Wire Line
+	6800 3100 7100 3100
+Wire Wire Line
+	7200 2700 6800 2700
+Wire Wire Line
+	6800 2700 6800 3100
+Wire Wire Line
+	6900 3700 6600 3700
+Wire Wire Line
+	6600 3700 6600 3100
+Wire Wire Line
+	5500 3300 5500 3100
+Wire Wire Line
+	6200 3500 6200 3100
+Connection ~ 3900 3700
+Connection ~ 4500 3100
+Connection ~ 6600 3100
+Connection ~ 6800 3100
+Connection ~ 4200 3100
+Connection ~ 6200 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	3000 3400 3300 3400
+Wire Wire Line
+	3300 3400 3600 3400
+Wire Wire Line
+	3300 3400 3300 2900
+Wire Wire Line
+	3300 2900 2100 2900
+Connection ~ 2100 2900
+Wire Wire Line
+	3000 4100 3300 4100
+Wire Wire Line
+	3300 4100 3600 4100
+Wire Wire Line
+	3300 4100 3300 4500
+Wire Wire Line
+	3300 4500 2100 4500
+Wire Wire Line
+	2100 4500 2100 3100
+Connection ~ 2100 3100
+Wire Wire Line
+	4100 2300 4100 2500
+Text Label 4100 2300 0    10   ~ 0
+GND
+Wire Wire Line
+	5000 2300 5000 2500
+Text Label 5000 2300 0    10   ~ 0
+GND
+Wire Wire Line
+	2800 3400 2600 3400
+Wire Wire Line
+	2600 3400 2600 3700
+Wire Wire Line
+	2600 3700 2600 4100
+Wire Wire Line
+	2600 4100 2800 4100
+Wire Wire Line
+	2600 3700 2400 3700
+Wire Wire Line
+	2400 3700 2400 5800
+Wire Wire Line
+	4500 4000 4500 5800
+Wire Wire Line
+	4500 5800 2400 5800
+Wire Wire Line
+	4500 5800 5800 5800
+Wire Wire Line
+	5800 5800 6200 5800
+Wire Wire Line
+	6200 5800 6700 5800
+Wire Wire Line
+	6700 5800 8000 5800
+Wire Wire Line
+	8000 5800 9100 5800
+Wire Wire Line
+	9100 5800 9600 5800
+Wire Wire Line
+	5800 6000 5800 5800
+Wire Wire Line
+	6200 5600 6200 5800
+Wire Wire Line
+	9600 5800 9600 5000
+Wire Wire Line
+	9100 5400 9100 5800
+Wire Wire Line
+	8000 5300 8000 5500
+Wire Wire Line
+	8000 5500 8000 5800
+Wire Wire Line
+	8200 5100 8200 5500
+Wire Wire Line
+	8200 5500 8000 5500
+Wire Wire Line
+	6700 5000 6700 5800
+Connection ~ 2600 3700
+Connection ~ 4500 5800
+Connection ~ 5800 5800
+Connection ~ 6200 5800
+Connection ~ 8000 5500
+Connection ~ 8000 5800
+Connection ~ 9100 5800
+Connection ~ 6700 5800
+Text Label 2800 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 2000 4700 2000
+Wire Wire Line
+	7500 3100 7700 3100
+Wire Wire Line
+	7700 3100 8000 3100
+Wire Wire Line
+	8000 3100 9600 3100
+Wire Wire Line
+	9600 3100 9600 3600
+Wire Wire Line
+	9600 3600 9600 3800
+Wire Wire Line
+	7400 2700 7700 2700
+Wire Wire Line
+	7700 2700 7700 3100
+Wire Wire Line
+	9300 3800 9300 3600
+Wire Wire Line
+	9300 3600 9600 3600
+Wire Wire Line
+	8000 3400 8000 3100
+Wire Wire Line
+	9000 3800 9000 3600
+Wire Wire Line
+	9000 3600 9300 3600
+Connection ~ 7700 3100
+Connection ~ 9600 3600
+Connection ~ 8000 3100
+Connection ~ 9300 3600
+Wire Wire Line
+	7300 3700 7300 3300
+Wire Wire Line
+	6000 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 4400
+Connection ~ 5500 3700
+Wire Wire Line
+	6200 4600 6200 4700
+Wire Wire Line
+	6200 5100 6200 5200
+Wire Wire Line
+	5500 4800 5500 5200
+Wire Wire Line
+	5500 5200 6200 5200
+Connection ~ 6200 5200
+Wire Wire Line
+	7100 3900 7100 4100
+Wire Wire Line
+	7100 4100 6700 4100
+Wire Wire Line
+	6700 4100 6200 4100
+Wire Wire Line
+	6200 3900 6200 4100
+Wire Wire Line
+	6200 4100 6200 4200
+Wire Wire Line
+	6700 4700 6700 4100
+Connection ~ 6200 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	9600 4600 9600 4500
+Wire Wire Line
+	9600 4500 9600 4300
+Wire Wire Line
+	9600 4300 9600 4000
+Wire Wire Line
+	9300 4000 9300 4300
+Wire Wire Line
+	9300 4300 9600 4300
+Wire Wire Line
+	9100 4600 9100 4500
+Wire Wire Line
+	9100 4500 9600 4500
+Wire Wire Line
+	9000 4100 9000 4300
+Wire Wire Line
+	9000 4300 9300 4300
+Connection ~ 9600 4300
+Connection ~ 9600 4500
+Connection ~ 9300 4300
+Wire Wire Line
+	9100 5200 9100 5100
+Wire Wire Line
+	9100 5100 9100 5000
+Wire Wire Line
+	9100 5100 9000 5100
+Text Label 9000 5100 2    70   ~ 0
+I-SENSE
+Connection ~ 9100 5100
+Wire Wire Line
+	8000 4900 8000 4600
+Wire Wire Line
+	8000 4200 8000 4000
+Wire Wire Line
+	8000 4000 8000 3800
+Wire Wire Line
+	8000 4000 8200 4000
+Connection ~ 8000 4000
+Text Label 8200 4000 0    70   ~ 0
+V-SENSE
+Wire Wire Line
+	5300 4600 5200 4600
+Text Label 5200 4600 2    70   ~ 0
+K-SET
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D1
+U 1 0 C78C3FBD
+P 2900 3400
+F 0 "D1" H 3000 3419 59  0000 L BNN
+F 1 "1N4004" H 3000 3309 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 2900 3400 50  0001 C CNN
+F 3 "" H 2900 3400 50  0001 C CNN
+	1    2900 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D2
+U 1 0 0CADE672
+P 3700 3400
+F 0 "D2" H 3800 3419 59  0000 L BNN
+F 1 "1N4004" H 3800 3309 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 3700 3400 50  0001 C CNN
+F 3 "" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D3
+U 1 0 93886C31
+P 3700 4100
+F 0 "D3" H 3800 4119 59  0000 L BNN
+F 1 "1N4004" H 3800 4009 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 3700 4100 50  0001 C CNN
+F 3 "" H 3700 4100 50  0001 C CNN
+	1    3700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D4
+U 1 0 04403A79
+P 2900 4100
+F 0 "D4" H 3000 4119 59  0000 L BNN
+F 1 "1N4004" H 3000 4009 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D5
+U 1 0 A8F36FED
+P 7300 2700
+F 0 "D5" H 7400 2719 59  0000 L BNN
+F 1 "1N4004" H 7400 2609 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4004 D6
+U 1 0 8D7F21E8
+P 9300 3900
+F 0 "D6" H 9400 3919 59  0000 L BNN
+F 1 "1N4004" H 9400 3809 59  0000 L BNN
+F 2 "PSU Main board:DO41-10" H 9300 3900 50  0001 C CNN
+F 3 "" H 9300 3900 50  0001 C CNN
+	1    9300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:CPOL-EUA C1
+U 1 0 96F674CF
+P 4500 3800
+F 0 "C1" H 4545 3819 59  0000 L BNN
+F 1 "3300uF" H 4545 3619 59  0000 L BNN
+F 2 "PSU Main board:PANASONIC_A" H 4500 3800 50  0001 C CNN
+F 3 "" H 4500 3800 50  0001 C CNN
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R1
+U 1 0 D47CF952
+P 5500 3500
+F 0 "R1" H 5350 3559 59  0000 L BNN
+F 1 "47K" H 5350 3370 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 5500 3500 50  0001 C CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R2
+U 1 0 FA6D7899
+P 6200 4400
+F 0 "R2" H 6050 4459 59  0000 L BNN
+F 1 "1K" H 6050 4270 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 6200 4400 50  0001 C CNN
+F 3 "" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R3
+U 1 0 691E95C4
+P 6200 4900
+F 0 "R3" H 6050 4959 59  0000 L BNN
+F 1 "4.7K" H 6050 4770 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 6200 4900 50  0001 C CNN
+F 3 "" H 6200 4900 50  0001 C CNN
+	1    6200 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R4
+U 1 0 C5ADFEB6
+P 6200 5400
+F 0 "R4" H 6050 5459 59  0000 L BNN
+F 1 "1K" H 6050 5270 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 6200 5400 50  0001 C CNN
+F 3 "" H 6200 5400 50  0001 C CNN
+	1    6200 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R5
+U 1 0 03F1CCD5
+P 9100 4800
+F 0 "R5" H 8950 4859 59  0000 L BNN
+F 1 "4.7K" H 8950 4670 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 9100 4800 50  0001 C CNN
+F 3 "" H 9100 4800 50  0001 C CNN
+	1    9100 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R6
+U 1 0 91847459
+P 8000 3600
+F 0 "R6" H 7850 3659 59  0000 L BNN
+F 1 "10K" H 7850 3470 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:R-EU_0309_12 R7
+U 1 0 36C72FB1
+P 8000 4400
+F 0 "R7" H 7850 4459 59  0000 L BNN
+F 1 "470" H 7850 4270 59  0000 L BNN
+F 2 "PSU Main board:0309_12" H 8000 4400 50  0001 C CNN
+F 3 "" H 8000 4400 50  0001 C CNN
+	1    8000 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:BC547 T1
+U 1 0 95B0B65C
+P 5400 4600
+F 0 "T1" H 5200 4900 59  0000 L BNN
+F 1 "9014" H 5200 4800 59  0000 L BNN
+F 2 "PSU Main board:TO92" H 5400 4600 50  0001 C CNN
+F 3 "" H 5400 4600 50  0001 C CNN
+	1    5400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:BC547 T3
+U 1 0 4D0AD38E
+P 7100 3800
+F 0 "T3" V 7500 3800 59  0000 L BNN
+F 1 "D882" V 7300 3900 59  0000 R TNN
+F 2 "PSU Main board:TO92" H 7100 3800 50  0001 C CNN
+F 3 "" H 7100 3800 50  0001 C CNN
+	1    7100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:2SC1969V T4
+U 1 0 8CDC067F
+P 7300 3200
+F 0 "T4" V 7600 3300 59  0000 L BNN
+F 1 "D1047" V 7500 3100 59  0000 L BNN
+F 2 "PSU Main board:T-30_V" H 7300 3200 50  0001 C CNN
+F 3 "" H 7300 3200 50  0001 C CNN
+	1    7300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:1N4728 D7
+U 1 0 F9924B52
+P 9100 5300
+F 0 "D7" H 9030 5375 59  0000 L BNN
+F 1 "5.1V" H 9030 5165 59  0000 L BNN
+F 2 "PSU Main board:DO41Z10" H 9100 5300 50  0001 C CNN
+F 3 "" H 9100 5300 50  0001 C CNN
+	1    9100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:RMG100-V R8
+U 1 0 12AEFE48
+P 9600 4800
+F 0 "R8" H 9450 4854 59  0000 L BNN
+F 1 "0.47" H 9450 4685 59  0000 L BNN
+F 2 "PSU Main board:TO-247-2V" H 9600 4800 50  0001 C CNN
+F 3 "" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:78XXS REG1
+U 1 0 82547E7D
+P 4100 2000
+F 0 "REG1" H 4200 1700 59  0000 L BNN
+F 1 "24V" H 4200 1600 59  0000 L BNN
+F 2 "PSU Main board:78XXS" H 4100 2000 50  0001 C CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:78XXS REG2
+U 1 0 A2E14317
+P 5000 2000
+F 0 "REG2" H 5100 1700 59  0000 L BNN
+F 1 "5V" H 5100 1600 59  0000 L BNN
+F 2 "PSU Main board:78XXS" H 5000 2000 50  0001 C CNN
+F 3 "" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:GND #GND2
+U 1 0 4877C9E2
+P 5800 6100
+F 0 "#GND2" H 5800 6100 50  0001 C CNN
+F 1 "GND" H 5700 6000 59  0000 L BNN
+F 2 "" H 5800 6100 50  0001 C CNN
+F 3 "" H 5800 6100 50  0001 C CNN
+	1    5800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:GND #GND5
+U 1 0 5B6A58CA
+P 4100 2600
+F 0 "#GND5" H 4100 2600 50  0001 C CNN
+F 1 "GND" H 4000 2500 59  0000 L BNN
+F 2 "" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:GND #GND6
+U 1 0 F6847280
+P 5000 2600
+F 0 "#GND6" H 5000 2600 50  0001 C CNN
+F 1 "GND" H 4900 2500 59  0000 L BNN
+F 2 "" H 5000 2600 50  0001 C CNN
+F 3 "" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 O/P
+U 1 0 5A0D0180
+P 9800 4000
+F 0 "O/P" H 9800 4035 59  0000 R TNN
+F 1 "W237-102" H 9700 3855 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 9800 4000 50  0001 C CNN
+F 3 "" H 9800 4000 50  0001 C CNN
+	1    9800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 O/P
+U 2 0 5A0D018C
+P 9800 3800
+F 0 "O/P" H 9800 3835 59  0000 R TNN
+F 1 "W237-102" H 9700 3655 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+	2    9800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 X2
+U 1 0 EE6A8C5B
+P 1900 2900
+F 0 "X2" H 1900 2935 59  0000 R TNN
+F 1 "W237-102" H 1800 2755 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 1900 2900 50  0001 C CNN
+F 3 "" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 X2
+U 2 0 EE6A8C57
+P 1900 3100
+F 0 "X2" H 1900 3135 59  0000 R TNN
+F 1 "W237-102" H 1800 2955 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	2    1900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 24VI/P
+U 1 0 C6999703
+P 1900 2900
+F 0 "24VI/P" H 1900 2935 59  0000 R TNN
+F 1 "W237-102" H 1800 2755 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 1900 2900 50  0001 C CNN
+F 3 "" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:W237-102 24VI/P
+U 2 0 C699970F
+P 1900 3100
+F 0 "24VI/P" H 1900 3135 59  0000 R TNN
+F 1 "W237-102" H 1800 2955 59  0000 L BNN
+F 2 "PSU Main board:W237-102" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	2    1900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:-PNP-TO92 T2
+U 1 0 50519265
+P 6100 3700
+F 0 "T2" H 5900 3900 59  0000 L BNN
+F 1 "9015" H 5900 3800 59  0000 L BNN
+F 2 "PSU Main board:TO92" H 6100 3700 50  0001 C CNN
+F 3 "" H 6100 3700 50  0001 C CNN
+	1    6100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:TRIM_EU-S64W R9
+U 1 0 A0C826A1
+P 8000 5100
+F 0 "R9" V 7765 4950 59  0000 L BNN
+F 1 "1k" V 7850 4950 59  0000 L BNN
+F 2 "PSU Main board:S64W" H 8000 5100 50  0001 C CNN
+F 3 "" H 8000 5100 50  0001 C CNN
+	1    8000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:C-EU025-060X050 C2
+U 1 0 4071D1F9
+P 9000 3900
+F 0 "C2" H 9060 3915 59  0000 L BNN
+F 1 "C-EU025-060X050" H 9060 3715 59  0000 L BNN
+F 2 "PSU Main board:C025-060X050" H 9000 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0001 C CNN
+	1    9000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSU_Main_board-eagle-import:C-EU025-060X050 C3
+U 1 0 00CB58E1
+P 6700 4800
+F 0 "C3" H 6760 4815 59  0000 L BNN
+F 1 "C-EU025-060X050" H 6760 4615 59  0000 L BNN
+F 2 "PSU Main board:C025-060X050" H 6700 4800 50  0001 C CNN
+F 3 "" H 6700 4800 50  0001 C CNN
+	1    6700 4800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

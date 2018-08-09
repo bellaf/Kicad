@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Lantronics-20x2-LCD-to-I2C-Backpack-rescue)(type Legacy)(uri "${KIPRJMOD}/Lantronics 20x2 LCD to I2C Backpack-rescue.lib")(options "")(descr ""))
+  (lib (name My-Components)(type Legacy)(uri "O:/Electronics_stuff/KiCad Libraries/My Components.lib")(options "")(descr ""))
+)

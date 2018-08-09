@@ -1,0 +1,266 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PSU_Main_board-eagle-import:-PNP-TO92
+#
+DEF PSU_Main_board-eagle-import:-PNP-TO92 T 0 40 Y Y 1 L N
+F0 "T" -400 300 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:-PNP-TO92" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 20 58 82 66 N
+P 2 1 0 0 30 65 70 70 N
+P 2 1 0 0 45 75 60 75 N
+P 2 1 0 0 60 85 45 75 N
+P 2 1 0 0 60 95 30 65 N
+P 2 1 0 0 62 102 20 58 N
+P 2 1 0 0 70 70 60 85 N
+P 2 1 0 0 75 70 60 95 N
+P 2 1 0 0 82 66 62 102 N
+P 2 1 0 0 100 -100 20 -60 N
+P 2 1 0 0 100 100 71 83 N
+X E 1 100 200 100 D 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X C 3 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:1N4004
+#
+DEF PSU_Main_board-eagle-import:1N4004 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:1N4004" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:1N4728
+#
+DEF PSU_Main_board-eagle-import:1N4728 D 0 40 Y Y 1 L N
+F0 "D" -70 75 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:1N4728" -70 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:2SC1969V
+#
+DEF PSU_Main_board-eagle-import:2SC1969V T 0 40 Y Y 1 L N
+F0 "T" -400 300 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:2SC1969V" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X B 1 -100 0 100 R 0 0 1 0 P
+X C 2 100 200 100 D 0 0 1 0 P
+X E 3 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:78XXS
+#
+DEF PSU_Main_board-eagle-import:78XXS IC 0 40 Y Y 1 L N
+F0 "IC" 100 -300 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:78XXS" 100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -80 -170 51 0 1 0 GND Normal 0 L B
+T 0 -175 -25 51 0 1 0 IN Normal 0 L B
+T 0 25 -25 51 0 1 0 OUT Normal 0 L B
+P 2 1 0 0 -200 -200 200 -200 N
+P 2 1 0 0 -200 100 -200 -200 N
+P 2 1 0 0 200 -200 200 100 N
+P 2 1 0 0 200 100 -200 100 N
+X GND GND 0 -300 100 U 0 0 1 0 I
+X IN IN -300 0 100 R 0 0 1 0 I
+X OUT OUT 300 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:BC547
+#
+DEF PSU_Main_board-eagle-import:BC547 T 0 40 Y Y 1 L N
+F0 "T" -400 300 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:BC547" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X E 1 100 -200 100 U 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X C 3 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:C-EU025-060X050
+#
+DEF PSU_Main_board-eagle-import:C-EU025-060X050 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:C-EU025-060X050" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:CPOL-EUA
+#
+DEF PSU_Main_board-eagle-import:CPOL-EUA C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:CPOL-EUA" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:GND
+#
+DEF PSU_Main_board-eagle-import:GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "PSU_Main_board-eagle-import:GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:R-EU_0309_12
+#
+DEF PSU_Main_board-eagle-import:R-EU_0309_12 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:R-EU_0309_12" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:RMG100-V
+#
+DEF PSU_Main_board-eagle-import:RMG100-V R 0 40 Y Y 1 L N
+F0 "R" -150 54 59 H V L BNN
+F1 "PSU_Main_board-eagle-import:RMG100-V" -150 -115 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 0 -150 0 N
+P 2 1 0 0 -150 -35 -150 0 N
+P 2 1 0 0 -150 -35 150 -35 N
+P 2 1 0 0 -150 0 -150 35 N
+P 2 1 0 0 150 -35 150 0 N
+P 2 1 0 0 150 0 150 35 N
+P 2 1 0 0 150 0 200 0 N
+P 2 1 0 0 150 35 -150 35 N
+X 1 1 -200 0 0 R 0 0 1 0 P
+X 2 2 200 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:TRIM_EU-S64W
+#
+DEF PSU_Main_board-eagle-import:TRIM_EU-S64W R 0 40 Y Y 1 L N
+F0 "R" -235 -150 59 V V L BNN
+F1 "PSU_Main_board-eagle-import:TRIM_EU-S64W" -150 -150 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -100 -100 -20 N
+P 2 1 0 0 -100 -20 -120 -60 N
+P 2 1 0 0 -100 -20 -80 -60 N
+P 2 1 0 0 -85 50 -67 88 N
+P 2 1 0 0 -30 -100 30 -100 N
+P 2 1 0 0 -30 100 -30 -100 N
+P 2 1 0 0 30 -100 30 100 N
+P 2 1 0 0 30 100 -30 100 N
+P 2 1 0 0 65 0 -74 69 N
+P 2 1 0 0 100 0 65 0 N
+X A A 0 -200 100 U 50 0 1 0 P
+X E E 0 200 100 D 50 0 1 0 P
+X S S 200 0 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# PSU_Main_board-eagle-import:W237-102
+#
+DEF PSU_Main_board-eagle-import:W237-102 X 0 40 Y Y 2 L N
+F0 "X" 0 35 59 H V R TNN
+F1 "PSU_Main_board-eagle-import:W237-102" -100 -145 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 50 1 0 10 N
+C 50 0 50 2 0 10 N
+X KL 1 200 0 100 L 0 0 1 0 P
+X KL 2 200 0 100 L 0 0 2 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,32 @@
+(export (version D)
+  (design
+    (source "O:\\Electronics_stuff\\Projects\\Hiland PSU front panel\\Hiland PSU front panel.sch")
+    (date "05/03/2017 12:56:45")
+    (tool "Eeschema 4.0.5")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "Hiland PSU front panel.sch")
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref PSU1)
+      (value PSuFrontPanel)
+      (footprint "KiCad Libraries:PSUFrontPanel")
+      (libsource (lib "My Components") (part PSuFrontPanel))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58BC06B1)))
+  (libparts
+    (libpart (lib "My Components") (part PSuFrontPanel)
+      (fields
+        (field (name Reference) PSU)
+        (field (name Value) PSuFrontPanel))))
+  (libraries
+    (library (logical "My Components")
+      (uri "O:\\Electronics_stuff\\KiCad Libraries\\My Components.lib")))
+  (nets))
