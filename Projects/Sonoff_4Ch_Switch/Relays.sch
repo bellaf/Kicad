@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Sonoff_4ch_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
-Title ""
+Sheet 2 2
+Title "Tasmota 4 Ch Switch - Relays and LED's"
 Date ""
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -48,7 +47,7 @@ AR Path="/5B62AA06" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62AA06" Ref="R1"  Part="1" 
 F 0 "R1" V 1493 2150 50  0000 C CNN
 F 1 "1K" V 1584 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 2150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1630 2150 50  0001 C CNN
 F 3 "~" H 1700 2150 50  0001 C CNN
 	1    1700 2150
 	0    1    1    0   
@@ -61,7 +60,7 @@ AR Path="/5B62AA0D" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62AA0D" Ref="R2"  Part="1" 
 F 0 "R2" H 1880 2354 50  0000 R CNN
 F 1 "10K" H 1880 2445 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1880 2400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1880 2400 50  0001 C CNN
 F 3 "~" H 1950 2400 50  0001 C CNN
 	1    1950 2400
 	-1   0    0    1   
@@ -175,7 +174,7 @@ AR Path="/5B62AE31" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62AE31" Ref="R3"  Part="1" 
 F 0 "R3" V 2343 3550 50  0000 C CNN
 F 1 "1K" V 2434 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 3550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2480 3550 50  0001 C CNN
 F 3 "~" H 2550 3550 50  0001 C CNN
 	1    2550 3550
 	0    1    1    0   
@@ -188,7 +187,7 @@ AR Path="/5B62AE38" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62AE38" Ref="R4"  Part="1" 
 F 0 "R4" H 2730 3754 50  0000 R CNN
 F 1 "10K" H 2730 3845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 3800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2730 3800 50  0001 C CNN
 F 3 "~" H 2800 3800 50  0001 C CNN
 	1    2800 3800
 	-1   0    0    1   
@@ -302,7 +301,7 @@ AR Path="/5B62B32C" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62B32C" Ref="R5"  Part="1" 
 F 0 "R5" V 3343 4800 50  0000 C CNN
 F 1 "1K" V 3434 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 4800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3480 4800 50  0001 C CNN
 F 3 "~" H 3550 4800 50  0001 C CNN
 	1    3550 4800
 	0    1    1    0   
@@ -315,7 +314,7 @@ AR Path="/5B62B333" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62B333" Ref="R6"  Part="1" 
 F 0 "R6" H 3730 5004 50  0000 R CNN
 F 1 "10K" H 3730 5095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 5050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 5050 50  0001 C CNN
 F 3 "~" H 3800 5050 50  0001 C CNN
 	1    3800 5050
 	-1   0    0    1   
@@ -429,7 +428,7 @@ AR Path="/5B62BCA1" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62BCA1" Ref="R7"  Part="1" 
 F 0 "R7" V 4343 6200 50  0000 C CNN
 F 1 "1K" V 4434 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4480 6200 50  0001 C CNN
 F 3 "~" H 4550 6200 50  0001 C CNN
 	1    4550 6200
 	0    1    1    0   
@@ -442,7 +441,7 @@ AR Path="/5B62BCA8" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B62BCA8" Ref="R8"  Part="1" 
 F 0 "R8" H 4730 6404 50  0000 R CNN
 F 1 "10K" H 4730 6495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4730 6450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 6450 50  0001 C CNN
 F 3 "~" H 4800 6450 50  0001 C CNN
 	1    4800 6450
 	-1   0    0    1   
@@ -604,7 +603,7 @@ AR Path="/5B658523" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B658523" Ref="R9"  Part="1" 
 F 0 "R9" V 5943 2100 50  0000 C CNN
 F 1 "1K" V 6034 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6080 2100 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 2100 50  0001 C CNN
 F 3 "~" H 6150 2100 50  0001 C CNN
 	1    6150 2100
 	0    1    1    0   
@@ -636,7 +635,7 @@ AR Path="/5B658533" Ref="D?"  Part="1"
 AR Path="/5B62A120/5B658533" Ref="D5"  Part="1" 
 F 0 "D5" V 6638 1233 50  0000 R CNN
 F 1 "LED" V 6547 1233 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 6600 1350 50  0001 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 6600 1350 50  0001 C CNN
 F 3 "~" H 6600 1350 50  0001 C CNN
 	1    6600 1350
 	0    -1   -1   0   
@@ -649,7 +648,7 @@ AR Path="/5B65853A" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B65853A" Ref="R10"  Part="1" 
 F 0 "R10" V 6393 1650 50  0000 C CNN
 F 1 "1K" V 6484 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6530 1650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6530 1650 50  0001 C CNN
 F 3 "~" H 6600 1650 50  0001 C CNN
 	1    6600 1650
 	-1   0    0    1   
@@ -690,7 +689,7 @@ AR Path="/5B65854F" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B65854F" Ref="R11"  Part="1" 
 F 0 "R11" V 6843 2950 50  0000 C CNN
 F 1 "1K" V 6934 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6980 2950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 2950 50  0001 C CNN
 F 3 "~" H 7050 2950 50  0001 C CNN
 	1    7050 2950
 	0    1    1    0   
@@ -722,7 +721,7 @@ AR Path="/5B65855F" Ref="D?"  Part="1"
 AR Path="/5B62A120/5B65855F" Ref="D6"  Part="1" 
 F 0 "D6" V 7538 2083 50  0000 R CNN
 F 1 "LED" V 7447 2083 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 7500 2200 50  0001 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 7500 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
 	1    7500 2200
 	0    -1   -1   0   
@@ -735,7 +734,7 @@ AR Path="/5B658566" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B658566" Ref="R12"  Part="1" 
 F 0 "R12" V 7293 2500 50  0000 C CNN
 F 1 "1K" V 7384 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7430 2500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7430 2500 50  0001 C CNN
 F 3 "~" H 7500 2500 50  0001 C CNN
 	1    7500 2500
 	-1   0    0    1   
@@ -776,7 +775,7 @@ AR Path="/5B65857B" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B65857B" Ref="R13"  Part="1" 
 F 0 "R13" V 7593 3900 50  0000 C CNN
 F 1 "1K" V 7684 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 3900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7730 3900 50  0001 C CNN
 F 3 "~" H 7800 3900 50  0001 C CNN
 	1    7800 3900
 	0    1    1    0   
@@ -808,7 +807,7 @@ AR Path="/5B65858B" Ref="D?"  Part="1"
 AR Path="/5B62A120/5B65858B" Ref="D7"  Part="1" 
 F 0 "D7" V 8288 3033 50  0000 R CNN
 F 1 "LED" V 8197 3033 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 8250 3150 50  0001 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 8250 3150 50  0001 C CNN
 F 3 "~" H 8250 3150 50  0001 C CNN
 	1    8250 3150
 	0    -1   -1   0   
@@ -821,7 +820,7 @@ AR Path="/5B658592" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B658592" Ref="R14"  Part="1" 
 F 0 "R14" V 8043 3450 50  0000 C CNN
 F 1 "1K" V 8134 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 3450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 3450 50  0001 C CNN
 F 3 "~" H 8250 3450 50  0001 C CNN
 	1    8250 3450
 	-1   0    0    1   
@@ -862,7 +861,7 @@ AR Path="/5B6585A7" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B6585A7" Ref="R15"  Part="1" 
 F 0 "R15" V 8393 4800 50  0000 C CNN
 F 1 "1K" V 8484 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8530 4800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 4800 50  0001 C CNN
 F 3 "~" H 8600 4800 50  0001 C CNN
 	1    8600 4800
 	0    1    1    0   
@@ -894,7 +893,7 @@ AR Path="/5B6585B7" Ref="D?"  Part="1"
 AR Path="/5B62A120/5B6585B7" Ref="D8"  Part="1" 
 F 0 "D8" V 9088 3933 50  0000 R CNN
 F 1 "LED" V 8997 3933 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 9050 4050 50  0001 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 9050 4050 50  0001 C CNN
 F 3 "~" H 9050 4050 50  0001 C CNN
 	1    9050 4050
 	0    -1   -1   0   
@@ -907,7 +906,7 @@ AR Path="/5B6585BE" Ref="R?"  Part="1"
 AR Path="/5B62A120/5B6585BE" Ref="R16"  Part="1" 
 F 0 "R16" V 8843 4350 50  0000 C CNN
 F 1 "1K" V 8934 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8980 4350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8980 4350 50  0001 C CNN
 F 3 "~" H 9050 4350 50  0001 C CNN
 	1    9050 4350
 	-1   0    0    1   

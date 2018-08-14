@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Sonoff_4ch_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -9,7 +8,7 @@ Title "Sonoff 4 Ch Mains Switch"
 Date ""
 Rev "1.0"
 Comp ""
-Comment1 "First revision - Nailed it!"
+Comment1 "rev A2 - Started fixing the issues"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -148,15 +147,13 @@ Wire Wire Line
 	1500 3200 1700 3200
 Wire Wire Line
 	1700 3300 1500 3300
-Wire Wire Line
-	3300 3100 3650 3100
 $Comp
 L Device:LED D9
 U 1 1 5B64DF92
 P 5200 1450
 F 0 "D9" V 5238 1333 50  0000 R CNN
 F 1 "LED" V 5147 1333 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 5200 1450 50  0001 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5200 1450 50  0001 C CNN
 F 3 "~" H 5200 1450 50  0001 C CNN
 	1    5200 1450
 	0    -1   -1   0   
@@ -167,7 +164,7 @@ U 1 1 5B64E229
 P 5200 1150
 F 0 "R17" H 5270 1196 50  0000 L CNN
 F 1 "1K" H 5270 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 1150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5130 1150 50  0001 C CNN
 F 3 "~" H 5200 1150 50  0001 C CNN
 	1    5200 1150
 	1    0    0    -1  
@@ -204,7 +201,7 @@ U 1 1 5B6590AC
 P 6150 1150
 F 0 "R18" H 6220 1196 50  0000 L CNN
 F 1 "1K" H 6220 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6080 1150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 1150 50  0001 C CNN
 F 3 "~" H 6150 1150 50  0001 C CNN
 	1    6150 1150
 	1    0    0    -1  
@@ -287,7 +284,7 @@ U 1 1 5B65AEF6
 P 6850 1700
 F 0 "R19" H 6920 1746 50  0000 L CNN
 F 1 "1K" H 6920 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 1700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6780 1700 50  0001 C CNN
 F 3 "~" H 6850 1700 50  0001 C CNN
 	1    6850 1700
 	1    0    0    -1  
@@ -351,7 +348,7 @@ U 1 1 5B65B2AD
 P 7500 2200
 F 0 "R20" H 7570 2246 50  0000 L CNN
 F 1 "1K" H 7570 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7430 2200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7430 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
 	1    7500 2200
 	1    0    0    -1  
@@ -415,7 +412,7 @@ U 1 1 5B65B78F
 P 8150 2700
 F 0 "R21" H 8220 2746 50  0000 L CNN
 F 1 "1K" H 8220 2655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8080 2700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8080 2700 50  0001 C CNN
 F 3 "~" H 8150 2700 50  0001 C CNN
 	1    8150 2700
 	1    0    0    -1  
@@ -477,21 +474,17 @@ Text GLabel 1500 3000 0    50   Input ~ 0
 SW2
 Wire Wire Line
 	1500 3000 1700 3000
-Text GLabel 3650 3200 2    50   Input ~ 0
+Text GLabel 3700 3300 2    50   Input ~ 0
 SW14
-Text GLabel 3650 3300 2    50   Input ~ 0
+Text GLabel 3700 3200 2    50   Input ~ 0
 SW16
-Wire Wire Line
-	3300 3200 3650 3200
-Wire Wire Line
-	3650 3300 3300 3300
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5B67F43F
 P 3250 1350
 F 0 "TP1" H 3308 1470 50  0000 L CNN
 F 1 "5V" H 3308 1379 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3450 1350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 1350 50  0001 C CNN
 F 3 "~" H 3450 1350 50  0001 C CNN
 	1    3250 1350
 	1    0    0    -1  
@@ -520,67 +513,67 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x03_Male J5
 U 1 1 5B6806FE
-P 2900 5050
-F 0 "J5" H 2873 4980 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 2873 5071 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2900 5050 50  0001 C CNN
-F 3 "~" H 2900 5050 50  0001 C CNN
-	1    2900 5050
+P 10250 2600
+F 0 "J5" H 10223 2530 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10223 2621 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10250 2600 50  0001 C CNN
+F 3 "~" H 10250 2600 50  0001 C CNN
+	1    10250 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR0106
 U 1 1 5B680954
-P 2550 4800
-F 0 "#PWR0106" H 2550 4650 50  0001 C CNN
-F 1 "+3V3" H 2565 4973 50  0000 C CNN
-F 2 "" H 2550 4800 50  0001 C CNN
-F 3 "" H 2550 4800 50  0001 C CNN
-	1    2550 4800
+P 9900 2350
+F 0 "#PWR0106" H 9900 2200 50  0001 C CNN
+F 1 "+3V3" H 9915 2523 50  0000 C CNN
+F 2 "" H 9900 2350 50  0001 C CNN
+F 3 "" H 9900 2350 50  0001 C CNN
+	1    9900 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5B680983
-P 2550 5350
-F 0 "#PWR0107" H 2550 5100 50  0001 C CNN
-F 1 "GND" H 2555 5177 50  0000 C CNN
-F 2 "" H 2550 5350 50  0001 C CNN
-F 3 "" H 2550 5350 50  0001 C CNN
-	1    2550 5350
+P 9900 2900
+F 0 "#PWR0107" H 9900 2650 50  0001 C CNN
+F 1 "GND" H 9905 2727 50  0000 C CNN
+F 2 "" H 9900 2900 50  0001 C CNN
+F 3 "" H 9900 2900 50  0001 C CNN
+	1    9900 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 5050 0    50   Input ~ 0
+Text GLabel 9250 2600 0    50   Input ~ 0
 OneWire
 Wire Wire Line
-	2550 4800 2550 4850
+	9900 2350 9900 2400
 Wire Wire Line
-	2550 4950 2700 4950
+	9900 2500 10050 2500
 Wire Wire Line
-	2700 5150 2550 5150
+	10050 2700 9900 2700
 Wire Wire Line
-	2550 5150 2550 5350
+	9900 2700 9900 2900
 $Comp
 L Device:R R22
 U 1 1 5B6832AC
-P 2400 4850
-F 0 "R22" V 2300 4750 50  0000 L CNN
-F 1 "4.7K" V 2500 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 4850 50  0001 C CNN
-F 3 "~" H 2400 4850 50  0001 C CNN
-	1    2400 4850
+P 9750 2400
+F 0 "R22" V 9650 2300 50  0000 L CNN
+F 1 "4.7K" V 9850 2300 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9680 2400 50  0001 C CNN
+F 3 "~" H 9750 2400 50  0001 C CNN
+	1    9750 2400
 	0    1    1    0   
 $EndComp
-Connection ~ 2550 4850
+Connection ~ 9900 2400
 Wire Wire Line
-	2550 4850 2550 4950
+	9900 2400 9900 2500
 Wire Wire Line
-	2250 4850 2250 5050
+	9600 2400 9600 2600
 Wire Wire Line
-	1900 5050 2250 5050
-Connection ~ 2250 5050
+	9250 2600 9600 2600
+Connection ~ 9600 2600
 Wire Wire Line
-	2250 5050 2700 5050
+	9600 2600 10050 2600
 Wire Wire Line
 	2250 1650 2850 1650
 $Comp
@@ -597,14 +590,14 @@ F 4 "1A LDO 5.0V Fixed output" H 2850 1350 50  0001 C CNN "Description"
 $EndComp
 Connection ~ 2850 1650
 Wire Wire Line
-	2850 1650 3450 1650
+	2850 1650 3250 1650
 $Comp
 L My_Own_Symbolslib:Wemos_D1_Mini_wide U2
 U 1 1 5B6ACFC5
 P 2200 3150
 F 0 "U2" H 2500 3787 60  0000 C CNN
 F 1 "Wemos_D1_Mini_wide" H 2500 3681 60  0000 C CNN
-F 2 "" H 2750 2450 60  0000 C CNN
+F 2 "My_Component_Footprints:Wemos_D1_mini_board-flipped" H 2750 2450 60  0001 C CNN
 F 3 "" H 2750 2450 60  0000 C CNN
 	1    2200 3150
 	1    0    0    -1  
@@ -614,8 +607,8 @@ L Connector:Screw_Terminal_01x05 J?
 U 1 1 5B718BD2
 P 10200 4400
 AR Path="/5B6399CD/5B718BD2" Ref="J?"  Part="1" 
-AR Path="/5B718BD2" Ref="J?"  Part="1" 
-F 0 "J?" H 10280 4442 50  0000 L CNN
+AR Path="/5B718BD2" Ref="J2"  Part="1" 
+F 0 "J2" H 10280 4442 50  0000 L CNN
 F 1 "Live" H 10280 4351 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal" H 10200 4400 50  0001 C CNN
 F 3 "~" H 10200 4400 50  0001 C CNN
@@ -627,8 +620,8 @@ L Connector:Screw_Terminal_01x05 J?
 U 1 1 5B718BD9
 P 10200 5050
 AR Path="/5B6399CD/5B718BD9" Ref="J?"  Part="1" 
-AR Path="/5B718BD9" Ref="J?"  Part="1" 
-F 0 "J?" H 10280 5092 50  0000 L CNN
+AR Path="/5B718BD9" Ref="J3"  Part="1" 
+F 0 "J3" H 10280 5092 50  0000 L CNN
 F 1 "Neutrals" H 10280 5001 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal" H 10200 5050 50  0001 C CNN
 F 3 "~" H 10200 5050 50  0001 C CNN
@@ -640,8 +633,8 @@ L Connector:Screw_Terminal_01x05 J?
 U 1 1 5B718BE0
 P 10200 5700
 AR Path="/5B6399CD/5B718BE0" Ref="J?"  Part="1" 
-AR Path="/5B718BE0" Ref="J?"  Part="1" 
-F 0 "J?" H 10280 5742 50  0000 L CNN
+AR Path="/5B718BE0" Ref="J4"  Part="1" 
+F 0 "J4" H 10280 5742 50  0000 L CNN
 F 1 "Earths" H 10280 5651 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal" H 10200 5700 50  0001 C CNN
 F 3 "~" H 10200 5700 50  0001 C CNN
@@ -725,8 +718,8 @@ L Device:Fuse F?
 U 1 1 5B718C0F
 P 9750 4200
 AR Path="/5B6399CD/5B718C0F" Ref="F?"  Part="1" 
-AR Path="/5B718C0F" Ref="F?"  Part="1" 
-F 0 "F?" V 9553 4200 50  0000 C CNN
+AR Path="/5B718C0F" Ref="F1"  Part="1" 
+F 0 "F1" V 9553 4200 50  0000 C CNN
 F 1 "Fuse 5A" V 9644 4200 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 9680 4200 50  0001 C CNN
 F 3 "~" H 9750 4200 50  0001 C CNN
@@ -740,8 +733,8 @@ L power:AC #PWR?
 U 1 1 5B718C17
 P 9950 4050
 AR Path="/5B6399CD/5B718C17" Ref="#PWR?"  Part="1" 
-AR Path="/5B718C17" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9950 3950 50  0001 C CNN
+AR Path="/5B718C17" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 9950 3950 50  0001 C CNN
 F 1 "AC" H 9950 4325 50  0000 C CNN
 F 2 "" H 9950 4050 50  0001 C CNN
 F 3 "" H 9950 4050 50  0001 C CNN
@@ -763,12 +756,78 @@ Wire Notes Line
 	10900 6200 10900 3700
 Text Notes 8300 3850 0    50   ~ 0
 Mains Terminal Blocks
+Text Notes 800  4450 0    50   ~ 0
+Design notes for rev A2:\n1. Add a GND TP, with a pin(?) - Done\n2. No Reverse polarity protection\n3. Do away with the Regulator?  Run it from 5V Power bricks?\n4. Redesign the layout with 0805 components! (0603 too small) - Done\n5. If keeping the regulator, re-engineer the copper pad for 5V, needs to be larger.\n6. Sort out the switch order! - DONE\n
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5B7304B4
+P 3250 1650
+F 0 "TP3" H 3350 1900 50  0000 L CNN
+F 1 "GND" H 3350 1750 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 1650 50  0001 C CNN
+F 3 "~" H 3450 1650 50  0001 C CNN
+	1    3250 1650
+	-1   0    0    1   
+$EndComp
+Connection ~ 3250 1650
+Wire Wire Line
+	3250 1650 3450 1650
+Wire Wire Line
+	3300 3100 3650 3100
+Wire Wire Line
+	3300 3200 3700 3200
+Wire Wire Line
+	3300 3300 3700 3300
 Wire Notes Line
-	1000 800  3850 800 
+	1000 750  1000 2350
 Wire Notes Line
-	3850 800  3850 2150
+	1000 2350 4700 2350
 Wire Notes Line
-	3850 2150 1000 2150
+	4700 2350 4700 750 
 Wire Notes Line
-	1000 2150 1000 800 
+	4700 750  1000 750 
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5B73B265
+P 900 7350
+F 0 "MH1" H 1000 7396 50  0000 L CNN
+F 1 "MountingHole" H 1000 7305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 900 7350 50  0001 C CNN
+F 3 "~" H 900 7350 50  0001 C CNN
+	1    900  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5B73B30D
+P 1450 7350
+F 0 "MH2" H 1550 7396 50  0000 L CNN
+F 1 "MountingHole" H 1550 7305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 1450 7350 50  0001 C CNN
+F 3 "~" H 1450 7350 50  0001 C CNN
+	1    1450 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5B73B3D1
+P 2000 7350
+F 0 "MH3" H 2100 7396 50  0000 L CNN
+F 1 "MountingHole" H 2100 7305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 2000 7350 50  0001 C CNN
+F 3 "~" H 2000 7350 50  0001 C CNN
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5B73B497
+P 2450 7350
+F 0 "MH4" H 2550 7396 50  0000 L CNN
+F 1 "MountingHole" H 2550 7305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 2450 7350 50  0001 C CNN
+F 3 "~" H 2450 7350 50  0001 C CNN
+	1    2450 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
