@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Sonoff_4ch_switch-Rev A2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -133,7 +134,7 @@ L power:GND #PWR0104
 U 1 1 5B635E51
 P 1550 2900
 F 0 "#PWR0104" H 1550 2650 50  0001 C CNN
-F 1 "GND" H 1555 2727 50  0000 C CNN
+F 1 "GND" V 1550 2700 50  0000 C CNN
 F 2 "" H 1550 2900 50  0001 C CNN
 F 3 "" H 1550 2900 50  0001 C CNN
 	1    1550 2900
@@ -191,7 +192,7 @@ F 3 "" H 5200 1600 50  0001 C CNN
 	1    5200 1600
 	1    0    0    -1  
 $EndComp
-Text Label 3500 1350 0    50   ~ 0
+Text Label 3450 1350 0    50   ~ 0
 5V_Hot
 Text Label 2300 1350 0    50   ~ 0
 DC_IN
@@ -264,10 +265,7 @@ F 3 "" H 5750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 1400 5750 1600
-Wire Wire Line
 	5750 1600 5750 1750
-Connection ~ 5750 1600
 Wire Wire Line
 	6150 1400 6150 1300
 Wire Wire Line
@@ -332,10 +330,7 @@ F 3 "" H 6450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 1950 6450 2150
-Wire Wire Line
 	6450 2150 6450 2300
-Connection ~ 6450 2150
 Wire Wire Line
 	6850 1950 6850 1850
 Wire Wire Line
@@ -396,10 +391,7 @@ F 3 "" H 7100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 2450 7100 2650
-Wire Wire Line
 	7100 2650 7100 2800
-Connection ~ 7100 2650
 Wire Wire Line
 	7500 2450 7500 2350
 Wire Wire Line
@@ -460,10 +452,7 @@ F 3 "" H 7750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 2950 7750 3150
-Wire Wire Line
 	7750 3150 7750 3300
-Connection ~ 7750 3150
 Wire Wire Line
 	8150 2950 8150 2850
 Wire Wire Line
@@ -482,8 +471,8 @@ $Comp
 L Connector:TestPoint TP1
 U 1 1 5B67F43F
 P 3250 1350
-F 0 "TP1" H 3308 1470 50  0000 L CNN
-F 1 "5V" H 3308 1379 50  0000 L CNN
+F 0 "TP1" H 3200 1700 50  0000 L CNN
+F 1 "5V" H 3200 1600 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 1350 50  0001 C CNN
 F 3 "~" H 3450 1350 50  0001 C CNN
 	1    3250 1350
@@ -498,7 +487,7 @@ U 1 1 5B67F57D
 P 3400 2750
 F 0 "TP2" V 3354 2937 50  0000 L CNN
 F 1 "3.3V" V 3445 2937 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3600 2750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3600 2750 50  0001 C CNN
 F 3 "~" H 3600 2750 50  0001 C CNN
 	1    3400 2750
 	0    1    1    0   
@@ -762,8 +751,8 @@ $Comp
 L Connector:TestPoint TP3
 U 1 1 5B7304B4
 P 3250 1650
-F 0 "TP3" H 3350 1900 50  0000 L CNN
-F 1 "GND" H 3350 1750 50  0000 L CNN
+F 0 "TP3" H 3200 1900 50  0000 L CNN
+F 1 "GND" H 3200 2000 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 1650 50  0001 C CNN
 F 3 "~" H 3450 1650 50  0001 C CNN
 	1    3250 1650
@@ -787,47 +776,51 @@ Wire Notes Line
 Wire Notes Line
 	4700 750  1000 750 
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH1
 U 1 1 5B73B265
 P 900 7350
-F 0 "MH?" H 1000 7396 50  0000 L CNN
+F 0 "MH1" H 1000 7396 50  0000 L CNN
 F 1 "MountingHole" H 1000 7305 50  0000 L CNN
-F 2 "" H 900 7350 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 900 7350 50  0001 C CNN
 F 3 "~" H 900 7350 50  0001 C CNN
 	1    900  7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH2
 U 1 1 5B73B30D
 P 1450 7350
-F 0 "MH?" H 1550 7396 50  0000 L CNN
+F 0 "MH2" H 1550 7396 50  0000 L CNN
 F 1 "MountingHole" H 1550 7305 50  0000 L CNN
-F 2 "" H 1450 7350 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 1450 7350 50  0001 C CNN
 F 3 "~" H 1450 7350 50  0001 C CNN
 	1    1450 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH3
 U 1 1 5B73B3D1
 P 2000 7350
-F 0 "MH?" H 2100 7396 50  0000 L CNN
+F 0 "MH3" H 2100 7396 50  0000 L CNN
 F 1 "MountingHole" H 2100 7305 50  0000 L CNN
-F 2 "" H 2000 7350 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 2000 7350 50  0001 C CNN
 F 3 "~" H 2000 7350 50  0001 C CNN
 	1    2000 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH4
 U 1 1 5B73B497
 P 2450 7350
-F 0 "MH?" H 2550 7396 50  0000 L CNN
+F 0 "MH4" H 2550 7396 50  0000 L CNN
 F 1 "MountingHole" H 2550 7305 50  0000 L CNN
-F 2 "" H 2450 7350 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 2450 7350 50  0001 C CNN
 F 3 "~" H 2450 7350 50  0001 C CNN
 	1    2450 7350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5750 1400
+NoConn ~ 6450 1950
+NoConn ~ 7100 2450
+NoConn ~ 7750 2950
 $EndSCHEMATC

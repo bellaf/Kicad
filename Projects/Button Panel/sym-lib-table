@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Button-Panel-rescue)(type Legacy)(uri "${KIWORKINGDIR}/Projects/Button Panel/Button Panel-rescue.lib")(options "")(descr ""))
+)
