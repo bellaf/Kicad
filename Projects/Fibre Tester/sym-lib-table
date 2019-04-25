@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Fibre_Tester-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Fibre_Tester-eagle-import.lib)(options "")(descr ""))
+  (lib (name Fibre-Tester-rescue)(type Legacy)(uri "${KIPRJMOD}/Fibre Tester-rescue.lib")(options "")(descr ""))
 )

@@ -1,0 +1,102 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CPOL-EUE5-8.5-Fibre_Tester-eagle-import
+#
+DEF CPOL-EUE5-8.5-Fibre_Tester-eagle-import C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "CPOL-EUE5-8.5-Fibre_Tester-eagle-import" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# GND-Fibre_Tester-eagle-import
+#
+DEF GND-Fibre_Tester-eagle-import #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "GND-Fibre_Tester-eagle-import" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# LED5MM-Fibre_Tester-eagle-import
+#
+DEF LED5MM-Fibre_Tester-eagle-import LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "LED5MM-Fibre_Tester-eagle-import" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C K 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555-Fibre_Tester-eagle-import
+#
+DEF NE555-Fibre_Tester-eagle-import IC 0 40 Y Y 1 L N
+F0 "IC" -300 450 59 H V L BNN
+F1 "NE555-Fibre_Tester-eagle-import" -300 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -400 300 -400 N
+P 2 1 0 0 -300 400 -300 -400 N
+P 2 1 0 0 300 -400 300 400 N
+P 2 1 0 0 300 400 -300 400 N
+X GND 1 400 -300 100 L 50 50 1 0 W
+X TRI 2 -400 -300 100 R 50 50 1 0 I
+X OUT 3 400 0 100 L 50 50 1 0 O
+X /RES 4 400 200 100 L 50 50 1 0 I
+X CON 5 400 -200 100 L 50 50 1 0 I
+X TRE 6 -400 300 100 R 50 50 1 0 I
+X DIS 7 -400 0 100 R 50 50 1 0 I
+X VCC+ 8 400 300 100 L 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# R0207_10-Fibre_Tester-eagle-import
+#
+DEF R0207_10-Fibre_Tester-eagle-import R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "R0207_10-Fibre_Tester-eagle-import" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -200 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 200 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
